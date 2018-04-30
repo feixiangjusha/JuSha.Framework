@@ -35,14 +35,5 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="UserInRole">
-      <EntityTypeMapping TypeName="DBModel.UserInRole">
-        <MappingFragment StoreEntitySet="UserInRole">
-          <ScalarProperty Name="Remark" ColumnName="Remark" />
-          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
-          <ScalarProperty Name="UserId" ColumnName="UserId" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>

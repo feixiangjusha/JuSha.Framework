@@ -58,15 +58,15 @@ namespace JuSha.Framework.Web.Filter
             if (this.ValidateLogin)
             {
                 //获取用户session信息
-                Entities.Users LoginUser = filterContext.HttpContext.Session[CacheKey.LoginUser] as Entities.Users;
+                Entities.Users LoginUser = filterContext.HttpContext.Session[Common.CacheKey.LoginUser] as Entities.Users;
                 string path = filterContext.HttpContext.Request.Path;
                 if (LoginUser==null)//未登录或已退出
                 {
-                    string url = "/Home/Index";
+                    string url = "/Login/"+(ValidateAdmin?"AdminLogin":"Login");
                     if (!string.IsNullOrEmpty(path))
                     {
                         path = filterContext.HttpContext.Server.UrlEncode(path);
-                        url = "/Home/Index?returnurl=" + path;
+                        url =url+ "?returnurl=" + path;
                     }
                     filterContext.Result = new RedirectResult(url);
                 }

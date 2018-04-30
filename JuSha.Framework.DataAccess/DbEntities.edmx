@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-    <Schema Namespace="DBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="DBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="Role">
           <Key>
             <PropertyRef Name="ID" />
@@ -13,17 +13,6 @@
           <Property Name="RoleName" Type="varchar" MaxLength="20" Nullable="false" />
           <Property Name="IsDelete" Type="int" Nullable="false" />
           <Property Name="CreateTime" Type="datetime" Nullable="false" />
-          <Property Name="Remark" Type="nvarchar" MaxLength="100" />
-        </EntityType>
-        <!--生成过程中发现错误:
-警告 6002: 表/视图“DB.dbo.UserInRole”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
-        <EntityType Name="UserInRole">
-          <Key>
-            <PropertyRef Name="UserId" />
-            <PropertyRef Name="RoleId" />
-          </Key>
-          <Property Name="UserId" Type="int" Nullable="false" />
-          <Property Name="RoleId" Type="int" Nullable="false" />
           <Property Name="Remark" Type="nvarchar" MaxLength="100" />
         </EntityType>
         <EntityType Name="Users">
@@ -51,13 +40,6 @@
         <EntityContainer Name="DBModelStoreContainer">
           <EntitySet Name="Role" EntityType="Self.Role" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="UserInRole" EntityType="Self.UserInRole" store:Type="Tables" store:Schema="dbo">
-            <DefiningQuery>SELECT 
-    [UserInRole].[UserId] AS [UserId], 
-    [UserInRole].[RoleId] AS [RoleId], 
-    [UserInRole].[Remark] AS [Remark]
-    FROM [dbo].[UserInRole] AS [UserInRole]</DefiningQuery>
-          </EntitySet>
         </EntityContainer>
       </Schema></edmx:StorageModels>
     <!-- CSDL content -->
@@ -98,17 +80,7 @@
         <EntityContainer Name="DBEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Role" EntityType="Self.Role" />
           <EntitySet Name="Users" EntityType="Self.Users" />
-          <EntitySet Name="UserInRole" EntityType="DBModel.UserInRole" />
         </EntityContainer>
-        <EntityType Name="UserInRole">
-          <Key>
-            <PropertyRef Name="UserId" />
-            <PropertyRef Name="RoleId" />
-          </Key>
-          <Property Name="UserId" Type="Int32" Nullable="false" />
-          <Property Name="RoleId" Type="Int32" Nullable="false" />
-          <Property Name="Remark" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
-        </EntityType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -146,15 +118,6 @@
                 <ScalarProperty Name="Status" ColumnName="Status" />
                 <ScalarProperty Name="RoleId" ColumnName="RoleId" />
                 <ScalarProperty Name="Remark" ColumnName="Remark" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="UserInRole">
-            <EntityTypeMapping TypeName="DBModel.UserInRole">
-              <MappingFragment StoreEntitySet="UserInRole">
-                <ScalarProperty Name="Remark" ColumnName="Remark" />
-                <ScalarProperty Name="RoleId" ColumnName="RoleId" />
-                <ScalarProperty Name="UserId" ColumnName="UserId" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

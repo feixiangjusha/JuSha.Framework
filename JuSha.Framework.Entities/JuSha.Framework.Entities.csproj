@@ -55,9 +55,6 @@
     <Compile Include="Role.cs">
       <DependentUpon>DbEntities.tt</DependentUpon>
     </Compile>
-    <Compile Include="UserInRole.cs">
-      <DependentUpon>DbEntities.tt</DependentUpon>
-    </Compile>
     <Compile Include="Users.cs">
       <DependentUpon>DbEntities.tt</DependentUpon>
     </Compile>

@@ -1,13 +1,9 @@
-﻿using System;
+﻿using JuSha.Framework.Web.Filter;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using Git.Framework.DataTypes;
-using Git.Framework.DataTypes.ExtensionMethods;
-using Git.Storage.Provider;
-using Git.Storage.Entity.Base;
-using Git.Storage.Provider.Base;
 
 namespace Git.Storage.Web.Lib.Filter
 {

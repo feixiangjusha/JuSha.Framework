@@ -35,15 +35,5 @@
   <EntityContainer Name="DBEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Role" EntityType="Self.Role" />
     <EntitySet Name="Users" EntityType="Self.Users" />
-    <EntitySet Name="UserInRole" EntityType="DBModel.UserInRole" />
   </EntityContainer>
-  <EntityType Name="UserInRole">
-    <Key>
-      <PropertyRef Name="UserId" />
-      <PropertyRef Name="RoleId" />
-    </Key>
-    <Property Name="UserId" Type="Int32" Nullable="false" />
-    <Property Name="RoleId" Type="Int32" Nullable="false" />
-    <Property Name="Remark" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
-  </EntityType>
 </Schema>

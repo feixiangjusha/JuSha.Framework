@@ -11,7 +11,8 @@ namespace JuSha.Framework.Web.Controllers
         public ActionResult Index()
         {
             BLL.User user = new BLL.User();
-            user.AdminLogin("", "");
+            user.AdminLogin("admin1", "admin","");
+            user.UpdateLoginCount("jusha");
             return View();
         }
     }
