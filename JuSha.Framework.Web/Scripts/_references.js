@@ -5,3 +5,5 @@
 /// <reference path="jquery.validate.js" />
 /// <reference path="jquery.validate.unobtrusive.js" />
 /// <reference path="../plugins/bootstrap/js/bootstrap.js" />
+/// <reference path="../plugins/bootstrap/js/bootstrap-treeview.js" />
+/// <reference path="admin/adminlogin.js" />

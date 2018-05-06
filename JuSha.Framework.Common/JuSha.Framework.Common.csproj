@@ -30,11 +30,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.ComponentModel.Composition.Registration" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,10 +51,25 @@
   <ItemGroup>
     <Compile Include="CacheKey.cs" />
     <Compile Include="Enums\FuncType.cs" />
+    <Compile Include="Extand\Ext.Convert.cs" />
+    <Compile Include="Extand\Ext.DateTime.cs" />
+    <Compile Include="Extand\Ext.Format.cs" />
+    <Compile Include="Extand\ExtLinq.cs" />
+    <Compile Include="Extand\ExtLinq.SortBy.cs" />
+    <Compile Include="Extand\ExtList.Comparint.cs" />
+    <Compile Include="Extand\ExtList.cs" />
+    <Compile Include="Extand\ExtTable.cs" />
+    <Compile Include="Helper\CacheHelper.cs" />
+    <Compile Include="Helper\CookieHelper.cs" />
+    <Compile Include="Helper\EncryptHelper.cs" />
+    <Compile Include="Helper\AjaxResult.cs" />
+    <Compile Include="Helper\SessionHelper.cs" />
+    <Compile Include="Helper\VerifyCodeHelper.cs" />
     <Compile Include="ReadEnum.cs" />
     <Compile Include="Helper\EnumHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

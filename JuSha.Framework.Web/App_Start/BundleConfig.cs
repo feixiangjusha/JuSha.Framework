@@ -20,11 +20,13 @@ namespace JuSha.Framework.Web
                         "~/Scripts/modernizr-*"));
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                      "~/Plugins/bootstrsp/js/bootstrap.js",
-                      "~/Scripts/respond.js"));
+                      "~/Plugins/bootstrap/js/bootstrap.js"));
 
+            bundles.Add(new ScriptBundle("~/bundles/respond").Include(
+                      "~/Scripts/respond.js"));
+   
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Plugins/bootstrsp/css/.css"));
+                      "~/Plugins/bootstrap/css/bootstrap.css"));
         }
     }
 }

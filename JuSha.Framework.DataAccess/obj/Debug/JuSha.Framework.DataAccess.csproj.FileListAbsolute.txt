@@ -11,3 +11,29 @@ E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework.DataAccess\bin\Deb
 E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework.DataAccess\obj\Debug\JuSha.Framework.DataAccess.csprojResolveAssemblyReference.cache
 E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework.DataAccess\bin\Debug\JuSha.Framework.Entities.dll
 E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework.DataAccess\bin\Debug\JuSha.Framework.Entities.pdb
+E:\SourceCode\VS\JuSha.Framework\JuSha.Framework.DataAccess\bin\Debug\JuSha.Framework.DataAccess.dll.config
+E:\SourceCode\VS\JuSha.Framework\JuSha.Framework.DataAccess\bin\Debug\JuSha.Framework.DataAccess.dll
+E:\SourceCode\VS\JuSha.Framework\JuSha.Framework.DataAccess\bin\Debug\JuSha.Framework.DataAccess.pdb
+E:\SourceCode\VS\JuSha.Framework\JuSha.Framework.DataAccess\bin\Debug\EntityFramework.dll
+E:\SourceCode\VS\JuSha.Framework\JuSha.Framework.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+E:\SourceCode\VS\JuSha.Framework\JuSha.Framework.DataAccess\bin\Debug\JuSha.Framework.Entities.dll
+E:\SourceCode\VS\JuSha.Framework\JuSha.Framework.DataAccess\bin\Debug\JuSha.Framework.Entities.pdb
+E:\SourceCode\VS\JuSha.Framework\JuSha.Framework.DataAccess\bin\Debug\EntityFramework.xml
+E:\SourceCode\VS\JuSha.Framework\JuSha.Framework.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+E:\SourceCode\VS\JuSha.Framework\JuSha.Framework.DataAccess\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\SourceCode\VS\JuSha.Framework\JuSha.Framework.DataAccess\obj\Debug\JuSha.Framework.DataAccess.csprojResolveAssemblyReference.cache
+E:\SourceCode\VS\JuSha.Framework\JuSha.Framework.DataAccess\obj\Debug\JuSha.Framework.DataAccess.dll
+E:\SourceCode\VS\JuSha.Framework\JuSha.Framework.DataAccess\obj\Debug\JuSha.Framework.DataAccess.pdb
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.DataAccess\obj\Debug\JuSha.Framework.DataAccess.csprojResolveAssemblyReference.cache
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.DataAccess\obj\Debug\JuSha.Framework.DataAccess.dll
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.DataAccess\obj\Debug\JuSha.Framework.DataAccess.pdb
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.DataAccess\bin\Debug\JuSha.Framework.DataAccess.dll.config
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.DataAccess\bin\Debug\JuSha.Framework.DataAccess.dll
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.DataAccess\bin\Debug\JuSha.Framework.DataAccess.pdb
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.DataAccess\bin\Debug\EntityFramework.dll
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.DataAccess\bin\Debug\JuSha.Framework.Entities.dll
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.DataAccess\bin\Debug\JuSha.Framework.Entities.pdb
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.DataAccess\bin\Debug\EntityFramework.xml
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.DataAccess\bin\Debug\zh-Hans\EntityFramework.resources.dll

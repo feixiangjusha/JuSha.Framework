@@ -5,8 +5,11 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="f41d84a27bf442d8b8c1834f96d64150" Name="Diagram1">
-        <EntityTypeShape EntityType="DBModel.Role" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="DBModel.Users" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.Role" Width="1.5" PointX="0.875" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.Users" Width="1.5" PointX="2.625" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBModel.Func" Width="1.5" PointX="4.375" PointY="0.75" />
+        <EntityTypeShape EntityType="DBModel.FuncType" Width="1.5" PointX="6.125" PointY="0.75" />
+        <EntityTypeShape EntityType="DBModel.RoleInFunc" Width="1.5" PointX="6.125" PointY="2.5" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

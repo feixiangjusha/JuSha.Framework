@@ -1,0 +1,94 @@
+﻿body {
+    background-image: url(../img/body-bg.png);
+    overflow-x: hidden;
+}
+
+.page-head .navbar {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+
+.page-head .navbar-inverse .navbar-nav > li > a:hover {
+    background-color: #999999;
+}
+
+.page-head .navbar-inverse .dropdown-menu > li > a:hover {
+    color: #262626;
+    text-decoration: none;
+    background-color: #f5f5f5;
+}
+
+.page-head .navbar-inverse .navbar-nav .color-red {
+    background: #E25A59 !important;
+    border-color: #E25A59 !important;
+    color: #fff;
+}
+
+.page-head .navbar .navbar-header .navbar-brand {
+    font-size: 38px;
+    color:#e5e5e5;
+}
+
+.page-head a:hover,a:focus {
+    color: #281f1d;
+    text-decoration: none;
+}
+
+.page-head a:focus {
+    outline: thin dotted #333;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+@media (min-width: 768px) {
+    .page-body {
+        padding-left: 200px;
+    }
+
+    .page-head .navbar .navbar-left {
+        margin-left: -200px;
+        left: 200px;
+        width: 200px;
+        position: fixed;
+        top: 50px;
+        height: 100%;
+        border-radius: 0;
+        border: none;
+        background-color: #222222;
+        overflow-y: auto;
+    }
+
+   .page-head  .navbar .navbar-left > li.dropdown > ul.dropdown-menu {
+        position: relative;
+        min-width: 200px;
+        margin: 0;
+        padding: 0;
+        border: none;
+        border-radius: 0;
+        background-color: transparent;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+
+   .page-head  .navbar .navbar-left > li > a {
+        width: 200px;
+    }
+
+   .page-head  .navbar .navbar-left > li.dropdown > ul.dropdown-menu > li > a {
+        color: #e5e5e5;
+        padding: 15px 15px 15px 25px;
+    }
+}
+
+.page-body {
+    margin-top:32px;
+    /*padding-top: 50px;*/
+}
+.page-body a {
+    /*color: #4f5555;*/
+    text-decoration: none;
+    /*margin-left: 250px;*/
+}
+
+

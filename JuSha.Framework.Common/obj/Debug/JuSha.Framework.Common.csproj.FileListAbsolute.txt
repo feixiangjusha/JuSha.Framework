@@ -2,3 +2,15 @@ E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework.Common\bin\Debug\J
 E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework.Common\bin\Debug\JuSha.Framework.Common.pdb
 E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework.Common\obj\Debug\JuSha.Framework.Common.dll
 E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework.Common\obj\Debug\JuSha.Framework.Common.pdb
+E:\SourceCode\VS\JuSha.Framework\JuSha.Framework.Common\bin\Debug\JuSha.Framework.Common.dll
+E:\SourceCode\VS\JuSha.Framework\JuSha.Framework.Common\bin\Debug\JuSha.Framework.Common.pdb
+E:\SourceCode\VS\JuSha.Framework\JuSha.Framework.Common\obj\Debug\JuSha.Framework.Common.csprojResolveAssemblyReference.cache
+E:\SourceCode\VS\JuSha.Framework\JuSha.Framework.Common\obj\Debug\JuSha.Framework.Common.dll
+E:\SourceCode\VS\JuSha.Framework\JuSha.Framework.Common\obj\Debug\JuSha.Framework.Common.pdb
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.Common\bin\Debug\JuSha.Framework.Common.dll
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.Common\bin\Debug\JuSha.Framework.Common.pdb
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.Common\obj\Debug\JuSha.Framework.Common.dll
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.Common\obj\Debug\JuSha.Framework.Common.pdb
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.Common\obj\Debug\JuSha.Framework.Common.csprojResolveAssemblyReference.cache
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.Common\bin\Debug\Newtonsoft.Json.dll
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.Common\bin\Debug\Newtonsoft.Json.xml

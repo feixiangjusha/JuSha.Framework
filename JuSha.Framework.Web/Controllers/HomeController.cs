@@ -6,13 +6,11 @@ using System.Web.Mvc;
 
 namespace JuSha.Framework.Web.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BasePageController
     {
         public ActionResult Index()
         {
-            BLL.User user = new BLL.User();
-            user.AdminLogin("admin1", "admin","");
-            user.UpdateLoginCount("jusha");
+            Entities.Users user= this.LoginUser;
             return View();
         }
     }

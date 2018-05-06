@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace JuSha.Framework.Web.Controllers
 {
-    public class LoginController : Controller
+    public class LoginController : BaseController
     {
         //
         // GET: /Login/
@@ -17,6 +17,10 @@ namespace JuSha.Framework.Web.Controllers
         public ActionResult AdminLogin()
         {
             return View();
+        }
+        public ActionResult GetAuthCode()
+        {
+            return File(Common.Helper.VerifyCodeHelper.GetVerifyCodeImg(), @"image/Gif");
         }
 	}
 }

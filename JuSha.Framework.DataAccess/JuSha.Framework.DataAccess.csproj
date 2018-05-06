@@ -85,6 +85,7 @@
       <DependentUpon>DbEntities.edmx</DependentUpon>
       <LastGenOutput>DbEntities.Context.cs</LastGenOutput>
     </Content>
+    <Content Include="Readme.txt" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\JuSha.Framework.Entities\JuSha.Framework.Entities.csproj">

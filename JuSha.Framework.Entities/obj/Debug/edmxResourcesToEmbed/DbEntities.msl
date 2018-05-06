@@ -18,7 +18,7 @@
           <ScalarProperty Name="IsAdmin" ColumnName="IsAdmin" />
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="UserName" ColumnName="UserName" />
-          <ScalarProperty Name="PassWord" ColumnName="PassWord" />
+          <ScalarProperty Name="Password" ColumnName="PassWord" />
           <ScalarProperty Name="RealName" ColumnName="RealName" />
           <ScalarProperty Name="Email" ColumnName="Email" />
           <ScalarProperty Name="Mobile" ColumnName="Mobile" />
@@ -32,6 +32,40 @@
           <ScalarProperty Name="Status" ColumnName="Status" />
           <ScalarProperty Name="RoleId" ColumnName="RoleId" />
           <ScalarProperty Name="Remark" ColumnName="Remark" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Func">
+      <EntityTypeMapping TypeName="DBModel.Func">
+        <MappingFragment StoreEntitySet="Func">
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="UpdateUser" ColumnName="UpdateUser" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="CreateUser" ColumnName="CreateUser" />
+          <ScalarProperty Name="Url" ColumnName="Url" />
+          <ScalarProperty Name="FuncType" ColumnName="FuncType" />
+          <ScalarProperty Name="ParentId" ColumnName="ParentId" />
+          <ScalarProperty Name="FuncName" ColumnName="FuncName" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FuncType">
+      <EntityTypeMapping TypeName="DBModel.FuncType">
+        <MappingFragment StoreEntitySet="FuncType">
+          <ScalarProperty Name="TypeDscr" ColumnName="TypeDscr" />
+          <ScalarProperty Name="TypeName" ColumnName="TypeName" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RoleInFunc">
+      <EntityTypeMapping TypeName="DBModel.RoleInFunc">
+        <MappingFragment StoreEntitySet="RoleInFunc">
+          <ScalarProperty Name="FuncId" ColumnName="FuncId" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

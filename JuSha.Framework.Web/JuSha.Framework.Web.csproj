@@ -118,25 +118,42 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\Admin\AdminBaseController.cs" />
+    <Compile Include="Controllers\Admin\SysSetupController.cs" />
+    <Compile Include="Controllers\AjaxLoginController.cs" />
+    <Compile Include="Controllers\BaseAjaxController.cs" />
+    <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\User\UserBaseController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Lib\BasePageController.cs" />
+    <Compile Include="Controllers\BasePageController.cs" />
     <Compile Include="Lib\Filter\BaseAuthorizeAttribute.cs" />
     <Compile Include="Lib\Filter\LoginAjaxFilter.cs" />
     <Compile Include="Lib\Filter\LoginFilter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\css\AdminLayout.css" />
+    <Content Include="Content\css\AdminLogin.css" />
+    <Content Include="Content\img\bg-login.jpg" />
+    <Content Include="Content\img\body-bg.png" />
+    <Content Include="Plugins\bootstrap\css\bootstrap-treeview.css" />
     <Content Include="Plugins\bootstrap\css\bootstrap.css" />
     <Content Include="Plugins\bootstrap\css\bootstrap.min.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Plugins\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Plugins\bootstrap\js\bootstrap-treeview.js" />
     <Content Include="Plugins\bootstrap\js\bootstrap.js" />
     <Content Include="Plugins\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Plugins\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Plugins\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Plugins\bootstrap\fonts\glyphicons-halflings-regular.woff" />
     <None Include="Scripts\jquery-1.10.2-vsdoc.js" />
+    <Content Include="Scripts\Admin\AdminLogin.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -165,14 +182,17 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Login\Login.cshtml" />
     <Content Include="Views\Login\AdminLogin.cshtml" />
+    <Content Include="Views\Shared\_AdminLayout.cshtml" />
+    <Content Include="Views\Shared\AdminError.cshtml" />
+    <Content Include="Views\Admin\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\css\" />
-    <Folder Include="Content\img\" />
-    <Folder Include="Controllers\Admin\" />
-    <Folder Include="Controllers\User\" />
-    <Folder Include="Views\Admin\" />
+    <Folder Include="Scripts\User\" />
+    <Folder Include="Views\Admin\SysSetup\" />
+    <Folder Include="Views\AjaxLogin\" />
+    <Folder Include="Views\BaseAjax\" />
+    <Folder Include="Views\Base\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

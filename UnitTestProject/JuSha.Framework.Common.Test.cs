@@ -23,5 +23,11 @@ namespace UnitTestProject
             EnumHelper.GetEnumAllDescription<FuncType>();
 
         }
+        [TestMethod]
+        public void MD5Test()
+        {
+            EncryptHelper.EncryptMd5("jusha");
+
+        }
     }
 }

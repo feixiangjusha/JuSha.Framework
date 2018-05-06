@@ -9,3 +9,8 @@ E:\SourceCode\VS\JuSha.Framework\JuSha.Framework.Entities\bin\Debug\JuSha.Framew
 E:\SourceCode\VS\JuSha.Framework\JuSha.Framework.Entities\bin\Debug\JuSha.Framework.Entities.pdb
 E:\SourceCode\VS\JuSha.Framework\JuSha.Framework.Entities\obj\Debug\JuSha.Framework.Entities.dll
 E:\SourceCode\VS\JuSha.Framework\JuSha.Framework.Entities\obj\Debug\JuSha.Framework.Entities.pdb
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.Entities\bin\Debug\JuSha.Framework.Entities.dll.config
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.Entities\bin\Debug\JuSha.Framework.Entities.dll
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.Entities\bin\Debug\JuSha.Framework.Entities.pdb
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.Entities\obj\Debug\JuSha.Framework.Entities.dll
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.Entities\obj\Debug\JuSha.Framework.Entities.pdb

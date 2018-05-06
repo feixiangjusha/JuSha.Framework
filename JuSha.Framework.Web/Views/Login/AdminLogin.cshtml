@@ -1,17 +1,75 @@
-﻿
-@{
+﻿@{
     Layout = null;
 }
-
 <!DOCTYPE html>
-
 <html>
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <title>AdminLogin</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>管理员登录</title>
+    @Styles.Render("~/Content/css")
+    <link href="~/Content/css/AdminLogin.css" rel="stylesheet" />
+
+    @Scripts.Render("~/bundles/jquery")
+    <script src="~/Scripts/Admin/AdminLogin.js"></script>
+    <style>
+        form input {
+            font-size: 18px;
+        }
+    </style>
 </head>
 <body>
-    <div> 
+
+    <div class="wrapper">
+        <div class="container">
+            <div class="logo">
+                <h1>通用管理开发框架</h1>
+            </div>
+            <form class="form">
+                <div class="row">
+                    <input id="txt_account" type="text" placeholder="用户名/手机号/邮箱">
+                    <span class="icon glyphicon glyphicon-user"></span>
+                </div>
+                <div class="row">
+                    <input id="txt_password" type="password" placeholder="登录密码">
+                    <span class="icon glyphicon glyphicon-lock"></span>
+                </div>
+                <div class="row">
+                    <input id="txt_code" maxlength="4" type="text" placeholder="验证码" style="width: 190px; float: left;">
+                    <div style="width: 110px; float: right; padding-top: 14px; padding-left: 14px;">
+                        看不清？<a id="switchCode" href="javascript:void();" style="text-decoration: none;">换一张</a>
+                        <img id="imgcode" class="authcode" src="~/Login/GetAuthCode" width="80" height="25" />
+                    </div>
+                </div>
+                <div class="row">
+                    <input id="rememberMe" type="checkbox" style="width:20px;display:inline;" ><label for="rememberMe">7天免登陆</label>
+                </div>
+                <div class="row">
+                    <button id="login_button" type="button"><span>登录</span></button>
+                </div>
+                <div class="row">
+                </div>
+            </form>
+            <div class="login_tips"></div>
+        </div>
+        <ul class="bg-bubbles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
     </div>
+    <div class="copyright">
+        <br>
+        适用浏览器：IE9以上、360、FireFox、Chrome、Safari、Opera、傲游、搜狗、世界之窗.
+    </div>
+
 </body>
 </html>

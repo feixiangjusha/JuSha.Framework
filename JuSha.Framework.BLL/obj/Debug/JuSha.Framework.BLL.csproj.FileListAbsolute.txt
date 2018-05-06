@@ -10,3 +10,31 @@ E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework.BLL\bin\Debug\Enti
 E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework.BLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
 E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework.BLL\bin\Debug\JuSha.Framework.Entities.dll
 E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework.BLL\bin\Debug\JuSha.Framework.Entities.pdb
+E:\SourceCode\VS\JuSha.Framework\JuSha.Framework.BLL\bin\Debug\JuSha.Framework.BLL.dll
+E:\SourceCode\VS\JuSha.Framework\JuSha.Framework.BLL\bin\Debug\JuSha.Framework.BLL.pdb
+E:\SourceCode\VS\JuSha.Framework\JuSha.Framework.BLL\bin\Debug\EntityFramework.dll
+E:\SourceCode\VS\JuSha.Framework\JuSha.Framework.BLL\bin\Debug\JuSha.Framework.DataAccess.dll
+E:\SourceCode\VS\JuSha.Framework\JuSha.Framework.BLL\bin\Debug\JuSha.Framework.Entities.dll
+E:\SourceCode\VS\JuSha.Framework\JuSha.Framework.BLL\bin\Debug\JuSha.Framework.DataAccess.pdb
+E:\SourceCode\VS\JuSha.Framework\JuSha.Framework.BLL\bin\Debug\JuSha.Framework.Entities.pdb
+E:\SourceCode\VS\JuSha.Framework\JuSha.Framework.BLL\bin\Debug\EntityFramework.xml
+E:\SourceCode\VS\JuSha.Framework\JuSha.Framework.BLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\SourceCode\VS\JuSha.Framework\JuSha.Framework.BLL\obj\Debug\JuSha.Framework.BLL.csprojResolveAssemblyReference.cache
+E:\SourceCode\VS\JuSha.Framework\JuSha.Framework.BLL\obj\Debug\JuSha.Framework.BLL.dll
+E:\SourceCode\VS\JuSha.Framework\JuSha.Framework.BLL\obj\Debug\JuSha.Framework.BLL.pdb
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.BLL\bin\Debug\JuSha.Framework.BLL.dll
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.BLL\bin\Debug\JuSha.Framework.BLL.pdb
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.BLL\bin\Debug\EntityFramework.dll
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.BLL\bin\Debug\JuSha.Framework.DataAccess.dll
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.BLL\bin\Debug\JuSha.Framework.Entities.dll
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.BLL\bin\Debug\JuSha.Framework.DataAccess.pdb
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.BLL\bin\Debug\JuSha.Framework.Entities.pdb
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.BLL\bin\Debug\EntityFramework.xml
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.BLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.BLL\obj\Debug\JuSha.Framework.BLL.csprojResolveAssemblyReference.cache
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.BLL\obj\Debug\JuSha.Framework.BLL.dll
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.BLL\obj\Debug\JuSha.Framework.BLL.pdb
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.BLL\bin\Debug\JuSha.Framework.Common.dll
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.BLL\bin\Debug\JuSha.Framework.Common.pdb
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.BLL\bin\Debug\Newtonsoft.Json.dll
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.BLL\bin\Debug\Newtonsoft.Json.xml

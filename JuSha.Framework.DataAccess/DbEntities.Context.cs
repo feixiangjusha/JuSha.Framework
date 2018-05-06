@@ -13,30 +13,36 @@
 namespace JuSha.Framework.DataAccess
 {
 
-using System;
-using System.Data.Entity;
-using System.Data.Entity.Infrastructure;
-using JuSha.Framework.Entities;
+    using System;
+    using System.Data.Entity;
+    using System.Data.Entity.Infrastructure;
+    using JuSha.Framework.Entities;
 
-public partial class DBEntities : DbContext
-{
-    public DBEntities()
-        : base("name=DBEntities")
+    public partial class DBEntities : DbContext
     {
+        public DBEntities()
+            : base("name=DBEntities")
+        {
+
+        }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            throw new UnintentionalCodeFirstException();
+        }
+
+
+        public virtual DbSet<Role> Role { get; set; }
+
+        public virtual DbSet<Users> Users { get; set; }
+
+        public virtual DbSet<Func> Func { get; set; }
+
+        public virtual DbSet<FuncType> FuncType { get; set; }
+
+        public virtual DbSet<RoleInFunc> RoleInFunc { get; set; }
 
     }
-
-    protected override void OnModelCreating(DbModelBuilder modelBuilder)
-    {
-        throw new UnintentionalCodeFirstException();
-    }
-
-
-    public virtual DbSet<Role> Role { get; set; }
-
-    public virtual DbSet<Users> Users { get; set; }
-
-}
 
 }
 

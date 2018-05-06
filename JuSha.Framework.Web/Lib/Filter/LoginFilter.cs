@@ -72,13 +72,13 @@ namespace JuSha.Framework.Web.Filter
                 }
                 else
                 {
-                    if (ValidateAdmin && LoginUser.IsAdmin == 1)
+                    if (ValidateAdmin && LoginUser.IsAdmin == 0)//管理员身份验证
                     {
-                        string url = "/Home/Index";
+                        string url = "/Login/AdminLogin";
                         if (!string.IsNullOrEmpty(path))
                         {
                             path = filterContext.HttpContext.Server.UrlEncode(path);
-                            url = "/Home/Index?returnurl=" + path;
+                            url = url + "?returnurl=" + path;
                         }
                         filterContext.Result = new RedirectResult(url);
                     }

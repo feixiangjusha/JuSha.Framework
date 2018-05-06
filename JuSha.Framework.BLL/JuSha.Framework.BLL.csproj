@@ -35,6 +35,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,6 +47,10 @@
     <Compile Include="User.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\JuSha.Framework.Common\JuSha.Framework.Common.csproj">
+      <Project>{88f89448-0852-45c5-ab55-602763ce40ba}</Project>
+      <Name>JuSha.Framework.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\JuSha.Framework.DataAccess\JuSha.Framework.DataAccess.csproj">
       <Project>{e8e5d451-e9ac-4c87-a8da-c4a560f96d17}</Project>
       <Name>JuSha.Framework.DataAccess</Name>
