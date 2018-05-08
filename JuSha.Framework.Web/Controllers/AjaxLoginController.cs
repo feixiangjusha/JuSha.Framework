@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace JuSha.Framework.Web.Controllers
 {
-    public class AjaxLoginController : BaseAjaxController
+    public class AjaxLoginController : AjaxBaseController
     {
         // GET: AjaxLogin
         [HttpPost]

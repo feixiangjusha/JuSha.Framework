@@ -70,7 +70,10 @@ namespace JuSha.Framework.Common.Helper
         }
         public static bool CheckVerifyCode(string chkCode)
         {
-            return Common.Helper.SessionHelper.GetSession(Common.CacheKey.VerifiyCode) == chkCode.Trim().ToLower();
+            string verifiyCode = Common.Helper.SessionHelper.GetSession(Common.CacheKey.VerifiyCode);
+            Common.Helper.SessionHelper.WriteSession(Common.CacheKey.VerifiyCode, string.Empty);
+            return verifiyCode == chkCode.Trim().ToLower();
+
         }
         /// <summary>
         /// 获取设定长度的随机验证码

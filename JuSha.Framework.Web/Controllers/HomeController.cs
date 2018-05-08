@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace JuSha.Framework.Web.Controllers
 {
-    public class HomeController : BasePageController
+    public class HomeController : PageBaseController
     {
         public ActionResult Index()
         {

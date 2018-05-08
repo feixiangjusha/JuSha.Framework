@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace JuSha.Framework.Common
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public static class CacheKey
     {
         /// <summary>
@@ -32,5 +35,15 @@ namespace JuSha.Framework.Common
         /// Session验证码Key
         /// </summary>
         public const string VerifiyCode = "VerifiyCode";
+        /// <summary>
+        /// 是否开启缓存登录
+        /// </summary>
+        public const bool EnableCookie = true;
+        /// <summary>
+        /// 用户免登陆时长(天)
+        /// </summary>
+        public const int CookieTimeSpan = 7;
+
+
     }
 }

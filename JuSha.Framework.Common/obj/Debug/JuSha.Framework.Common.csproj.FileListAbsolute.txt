@@ -14,3 +14,8 @@ E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.Co
 E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.Common\obj\Debug\JuSha.Framework.Common.csprojResolveAssemblyReference.cache
 E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.Common\bin\Debug\Newtonsoft.Json.dll
 E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.Common\bin\Debug\Newtonsoft.Json.xml
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework.Common\bin\Debug\log4net.dll
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework.Common\bin\Debug\Newtonsoft.Json.dll
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework.Common\bin\Debug\log4net.xml
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework.Common\bin\Debug\Newtonsoft.Json.xml
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework.Common\obj\Debug\JuSha.Framework.Common.csprojResolveAssemblyReference.cache

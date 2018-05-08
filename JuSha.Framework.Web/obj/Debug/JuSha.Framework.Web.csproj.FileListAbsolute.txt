@@ -134,3 +134,6 @@ E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.We
 E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.Web\obj\Debug\JuSha.Framework.Web.csprojResolveAssemblyReference.cache
 E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.Web\obj\Debug\JuSha.Framework.Web.dll
 E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.Web\obj\Debug\JuSha.Framework.Web.pdb
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework.Web\bin\JuSha.Framework.Common.dll
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework.Web\bin\JuSha.Framework.Common.pdb
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework.Web\bin\log4net.xml

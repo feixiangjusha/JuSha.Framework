@@ -63,7 +63,7 @@ namespace JuSha.Framework.Web.Controllers
         {
             get
             {
-                if (Session[CacheKey.LoginUser] == null)
+                if (Session[CacheKey.LoginUser] == null&&Common.CacheKey.EnableCookie)
                 {
                     Users entityUser = null;
                     string userName = Common.Helper.CookieHelper.GetcookieValue(Common.CacheKey.CookieUserName);
@@ -131,7 +131,7 @@ namespace JuSha.Framework.Web.Controllers
             if (entityUser != null && UserAddSession(entityUser))
             {
                 BLL.User bllUser = new BLL.User();
-                Common.Helper.CookieHelper.SetCookie(Common.CacheKey.CookieUserName, entityUser.UserName,new TimeSpan(7,0,0,0));
+                Common.Helper.CookieHelper.SetCookie(Common.CacheKey.CookieUserName, entityUser.UserName,new TimeSpan(Common.CacheKey.CookieTimeSpan,0,0,0));
                 Common.Helper.CookieHelper.SetCookie(Common.CacheKey.CookieUserEncrypt, bllUser.UserCookieEncrypt(entityUser.UserName, entityUser.Password, this.IP),new TimeSpan(7,0,0,0));
                 return true;
             }

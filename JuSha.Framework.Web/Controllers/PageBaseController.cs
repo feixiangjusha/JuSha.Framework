@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace JuSha.Framework.Web.Controllers
 {
-    public abstract class BasePageController : BaseController
+    public abstract class PageBaseController : BaseController
     {
         // GET: BasePage
     }

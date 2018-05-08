@@ -12,7 +12,7 @@
     <link href="~/Content/css/AdminLogin.css" rel="stylesheet" />
 
     @Scripts.Render("~/bundles/jquery")
-    <script src="~/Scripts/Admin/AdminLogin.js"></script>
+    <script src="~/Scripts/Admin/AdminLogin.js?v=@Guid.NewGuid().ToString().Replace("-","")"></script>
     <style>
         form input {
             font-size: 18px;

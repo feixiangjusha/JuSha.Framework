@@ -4,13 +4,14 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace JuSha.Framework.Web.Controllers
+namespace JuSha.Framework.Web.Areas.Admin.Controllers
 {
-    public class SysSetupController : AdminBaseController
+    public class HomeController : PageBaseController
     {
-        // GET: SysSetup
+        // GET: Admin/Home
         public ActionResult Index()
         {
+            Entities.Users user = this.LoginUser;
             return View();
         }
     }

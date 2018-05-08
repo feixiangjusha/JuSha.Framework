@@ -4,9 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace JuSha.Framework.Web.Controllers
+namespace JuSha.Framework.Web.Areas.Admin.Controllers
 {
-    public abstract class AdminBaseController : BasePageController
+    public abstract class PageBaseController : Web.Controllers.PageBaseController
     {
         // GET: AdminBase
 

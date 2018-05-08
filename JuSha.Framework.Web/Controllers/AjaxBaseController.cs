@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace JuSha.Framework.Web.Controllers
 {
-    public class BaseAjaxController : BaseController
+    public class AjaxBaseController : BaseController
     {
         // GET: BaseAjax
     }

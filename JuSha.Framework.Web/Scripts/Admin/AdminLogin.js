@@ -32,7 +32,7 @@ login = {
                 dataType: "json",
                 success: function (data) {
                     if (data.State == "success") {
-                        window.location.href = "/Home/Index";
+                        window.location.href = "/Admin/Home/Index";
                     } else {
                         $("#login_button").removeAttr('disabled').find('span').html("登录");
                         $("#switchCode").trigger("click");

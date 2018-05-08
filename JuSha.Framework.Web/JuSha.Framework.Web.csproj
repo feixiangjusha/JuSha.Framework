@@ -46,6 +46,10 @@
     <Reference Include="EntityFramework.SqlServer">
       <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -118,18 +122,23 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\Admin\AdminBaseController.cs" />
-    <Compile Include="Controllers\Admin\SysSetupController.cs" />
+    <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\AjaxBaseController.cs" />
+    <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
+    <Compile Include="Areas\Admin\Controllers\PageBaseController.cs" />
+    <Compile Include="Areas\Admin\Controllers\SysSetupController.cs" />
+    <Compile Include="Areas\User\Controllers\AjaxBaseController.cs" />
+    <Compile Include="Areas\User\Controllers\PageBaseController.cs" />
+    <Compile Include="Areas\User\UserAreaRegistration.cs" />
     <Compile Include="Controllers\AjaxLoginController.cs" />
-    <Compile Include="Controllers\BaseAjaxController.cs" />
+    <Compile Include="Controllers\AjaxBaseController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
-    <Compile Include="Controllers\User\UserBaseController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Controllers\BasePageController.cs" />
+    <Compile Include="Controllers\PageBaseController.cs" />
     <Compile Include="Lib\Filter\BaseAuthorizeAttribute.cs" />
     <Compile Include="Lib\Filter\LoginAjaxFilter.cs" />
     <Compile Include="Lib\Filter\LoginFilter.cs" />
@@ -152,6 +161,13 @@
     <Content Include="Plugins\bootstrap\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Plugins\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Plugins\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Areas\Admin\Views\web.config" />
+    <Content Include="Areas\User\Views\web.config" />
+    <Content Include="Areas\Admin\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\Index.cshtml" />
+    <Content Include="Log4Net.config">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="Scripts\jquery-1.10.2-vsdoc.js" />
     <Content Include="Scripts\Admin\AdminLogin.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -184,15 +200,15 @@
     <Content Include="Views\Login\AdminLogin.cshtml" />
     <Content Include="Views\Shared\_AdminLayout.cshtml" />
     <Content Include="Views\Shared\AdminError.cshtml" />
-    <Content Include="Views\Admin\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\Admin\Views\AjaxBase\" />
+    <Folder Include="Areas\User\Models\" />
+    <Folder Include="Areas\User\Views\Default\" />
+    <Folder Include="Areas\User\Views\Shared\" />
     <Folder Include="Scripts\User\" />
-    <Folder Include="Views\Admin\SysSetup\" />
-    <Folder Include="Views\AjaxLogin\" />
-    <Folder Include="Views\BaseAjax\" />
-    <Folder Include="Views\Base\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

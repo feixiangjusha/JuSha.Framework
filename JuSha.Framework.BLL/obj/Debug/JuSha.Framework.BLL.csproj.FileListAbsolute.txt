@@ -38,3 +38,9 @@ E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.BL
 E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.BLL\bin\Debug\JuSha.Framework.Common.pdb
 E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.BLL\bin\Debug\Newtonsoft.Json.dll
 E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework\JuSha.Framework.BLL\bin\Debug\Newtonsoft.Json.xml
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework.BLL\bin\Debug\JuSha.Framework.Common.dll
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework.BLL\bin\Debug\log4net.dll
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework.BLL\bin\Debug\Newtonsoft.Json.dll
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework.BLL\bin\Debug\JuSha.Framework.Common.pdb
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework.BLL\bin\Debug\log4net.xml
+E:\My VS Project\学习项目\JuSha.Framework\JuSha.Framework.BLL\bin\Debug\Newtonsoft.Json.xml
